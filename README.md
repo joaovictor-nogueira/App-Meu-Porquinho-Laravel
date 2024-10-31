@@ -1,6 +1,10 @@
 # Projeto: App Meu Porquinho
 
-![Logo do App Meu Porquinho](public/img/logo.png)
+<div align="center">
+
+    ![Logo do App Meu Porquinho](public/img/logo.png)
+
+</div>
 
 O **App Meu Porquinho** é uma aplicação web desenvolvida em Laravel, destinada a auxiliar os usuários no gerenciamento de suas finanças pessoais. Através de uma interface intuitiva, o aplicativo permite que os usuários realizem operações de entrada e saída de dinheiro, categorizando suas transações para facilitar o acompanhamento dos gastos e receitas.
 
