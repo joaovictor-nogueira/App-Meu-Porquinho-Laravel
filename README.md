@@ -21,3 +21,6 @@ O **App Meu Porquinho** é uma aplicação web desenvolvida em Laravel, destinad
 6. **Autenticação**: A aplicação oferece um sistema de autenticação de usuários, garantindo que as informações financeiras sejam seguras e acessíveis apenas para cada usuário.
 
 O **App Meu Porquinho** se destaca como uma ferramenta prática e eficiente para quem busca organizar suas finanças de forma simples e visual.
+
+
+Caso você encontre algum bug e deseje reporta-lo, pode me mandar uma mensagem no instagram https://www.instagram.com/joaovictor.doratioto/ :)
