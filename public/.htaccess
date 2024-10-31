@@ -1,3 +1,7 @@
+<IfModule mime_module>
+    AddHandler application/x-httpd-alt-php73 .php
+</IfModule>
+
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
