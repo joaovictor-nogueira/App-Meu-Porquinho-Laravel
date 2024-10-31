@@ -1,0 +1,38 @@
+body,
+html {
+    font-family: 'Nunito';
+    height: 100% !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* Conteúdo principal ocupa o máximo de altura disponível */
+.content {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Footer fixo na parte inferior */
+footer.footer {
+    width: 100% !important;
+}
+
+.desenvolvido {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(248, 199, 51);
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.desenvolvido:hover {
+    color: rgb(224, 178, 40);
+}
+
+.bg-footer {
+    background-color: rgba(20, 44, 51, 0.773);
+}
+

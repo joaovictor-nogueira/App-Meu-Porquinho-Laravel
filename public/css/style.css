@@ -1,0 +1,70 @@
+html,
+body {
+
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* O conteúdo principal expande para ocupar a altura disponível */
+#app {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajuste do rodapé */
+footer.footer {
+    width: 100%;
+}
+
+/* Overlay de carregamento */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.overlay .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.desenvolvido {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(248, 199, 51);
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.desenvolvido:hover {
+    color: rgb(224, 178, 40);
+}
+
+.bg-footer {
+    background-color: rgba(20, 44, 51, 0.773);
+}
+
